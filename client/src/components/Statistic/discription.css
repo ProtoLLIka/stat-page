@@ -1,0 +1,60 @@
+.discConteiner {
+    height: 246px;
+    width: 100%;
+    overflow-y: scroll;
+    border: 'solid 1px black';
+    margin: 10;
+    margin-top: 50px;
+    display: block;
+    font-family: Roboto, sans-serif;
+}
+
+.customers {
+    text-align: center;
+    width: 983px;
+    border-collapse: collapse;
+}
+
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.taskNameTd {
+    text-align: left;
+    width: 123px;
+}
+
+.taskName {
+    text-align: left;
+    display: inline-block;
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.score {
+    width: 50px;
+}
+
+.date {
+    width: 90px;
+}
+
+.customers tr:nth-child(even) {
+    background-color: #cccccc;
+}
+
+.customers tr:hover {
+    background-color: #ddd;
+}
+
+.customers th {
+    position: sticky;
+    top: -1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #17939b;
+    color: white;
+}

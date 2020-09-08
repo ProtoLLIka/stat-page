@@ -1,0 +1,1 @@
+export declare const getSolutionByUserId = "\nSELECT \n    solutions.date,\n    tasks.name,\n    ROUND(solutions.score_to_show_cf * tasks.weight / 100) AS score\nFROM\n    solutions\n        JOIN\n    pupil ON solutions.pupil_id = pupil.id\n        JOIN\n    tasks ON solutions.task_id = tasks.id\nWHERE\n    solutions.solved = 1 AND pupil.id = 1\nORDER BY solutions.date;";

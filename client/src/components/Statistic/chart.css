@@ -1,0 +1,52 @@
+.btn {
+    border: none;
+    width: fit-content;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    color: #17939b;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.btn:hover {
+    background: #568c925e;
+    color: #17939b;
+}
+
+button:disabled, button[disabled] {
+    background-color: #17939b;
+    color: #ffffff;
+}
+
+button:disabled:hover, button[disabled] {
+    background-color: #17939b;
+    color: #ffffff;
+}
+
+.chartConteiner {
+    position: relative;
+    z-index: 0;
+    font-family: Roboto, sans-serif;
+    border-width: 1px;
+    width: 100%;
+    height: 400px;
+}
+
+.recharts-responsive-container {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.recharts-cartesian-axis-tick {
+    font-size: 10px;
+}
+
+.recharts-cartesian-axis {
+    margin-top: 10px;
+}

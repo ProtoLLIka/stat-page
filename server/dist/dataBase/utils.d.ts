@@ -1,0 +1,10 @@
+import { Interval } from "./dto/interval";
+import { Answer } from "./dto/answer";
+export declare function getQueryForIntervals(id: string, start: number, end: number): string;
+export declare function getQueryAboutUser(id: string): string;
+export declare function getQueryForDiscription(id: string, start: number, end: number): string;
+export declare type GroupBy = 'week' | 'month' | 'day';
+export declare function getTimeInterval(start: number, end: number, groupBy: GroupBy): any;
+export declare function getStartDateOf(type: GroupBy, date: number): number;
+export declare function getNextDateOf(type: GroupBy, date: number): number;
+export declare function fillData(intervals: Interval[], data: Answer[]): Interval[];

@@ -1,0 +1,39 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline-color: #17939b;
+}
+
+button {
+  background-color: #17939b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.authContainer {
+  padding: 16px;
+  width: 400px;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

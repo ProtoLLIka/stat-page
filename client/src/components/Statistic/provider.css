@@ -1,0 +1,10 @@
+.statisticContainer {
+    position: relative;
+    display: block;
+    flex-direction: row;
+    background-color: white;
+    width: 1000px;
+    height: 755px;
+    margin: 0 auto;
+    border: 10px;
+}

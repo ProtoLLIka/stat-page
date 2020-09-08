@@ -1,0 +1,33 @@
+.groupByButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn:disabled {
+    background: #ffffff00;
+    color: #17939b;
+}
+
+.btn {
+    width: 100px;
+    background: #17939b;
+}
+
+.btn:hover {
+    background: #eee;
+}
+
+.switcher {
+    width: 100px;
+    height: auto;
+}
+
+.active {
+    background: #17939b;
+}
+
+.passive {
+    background: #ffffff00;
+    color: #17939b;
+}
